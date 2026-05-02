@@ -6,7 +6,7 @@ describe('Funcionalidade: Cadastro no Hub de Leitura', () => {
         cy.visit('register.html')
     });
 
-    it('Deve realizar cadastro com sucesso, usando uma função JavaScript', () => {
+    it('Deve cadastrar usuário com sucesso utilizando dados dinâmicos', () => {
         let email = `test${Date.now()}@abc.com`
         cy.get('#name').type('User Test')
         cy.get('#email').type(email)
@@ -19,7 +19,7 @@ describe('Funcionalidade: Cadastro no Hub de Leitura', () => {
         cy.url().should('include', 'dashboard')
     });
 
-    it('Deve realizar cadastro com sucesso, usando a biblioteca Faker', () => {
+    it('Deve cadastrar usuário com sucesso utilizando dados gerados pelo Faker', () => {
         let nome = faker.person.fullName()
         let email = faker.internet.email()
         cy.get('#name').type(nome)
@@ -33,4 +33,5 @@ describe('Funcionalidade: Cadastro no Hub de Leitura', () => {
         cy.url().should('include', 'dashboard')
         cy.get('#user-name').should('contain', nome)
     });
+
 });

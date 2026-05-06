@@ -1,0 +1,94 @@
+[
+    {
+        "livro": "1984",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "A Arte da Guerra",
+        "categoria": "Estratégia"
+    },
+    {
+        "livro": "A Divina Comédia",
+        "categoria": "Poesia"
+    },
+    {
+        "livro": "A Menina que Roubava Livros",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "A Metamorfose",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "A Revolução dos Bichos",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "Cem Anos de Solidão",
+        "categoria": "Realismo Mágico"
+    },
+    {
+        "livro": "Dom Casmurro",
+        "categoria": "Ficção Clássica"
+    },
+    {
+        "livro": "Dom Quixote",
+        "categoria": "Romance"
+    },
+    {
+        "livro": "Harry Potter e a Pedra Filosofal",
+        "categoria": "Fantasia"
+    },
+    {
+        "livro": "Hub de Leitura",
+        "categoria": "Geral"
+    },
+    {
+        "livro": "O Alquimista",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "O Apanhador no Campo de Centeio",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "O Código Da Vinci",
+        "categoria": "Mistério"
+    },
+    {
+        "livro": "O Diário de Anne Frank",
+        "categoria": "Biografia"
+    },
+    {
+        "livro": "O Hobbit",
+        "categoria": "Fantasia"
+    },
+    {
+        "livro": "O Ladrão de Raios",
+        "categoria": "Fantasia"
+    },
+    {
+        "livro": "O Morro dos Ventos Uivantes",
+        "categoria": "Romance"
+    },
+    {
+        "livro": "O Pequeno Príncipe",
+        "categoria": "Infantil"
+    },
+    {
+        "livro": "O Senhor dos Anéis: A Sociedade do Anel",
+        "categoria": "Fantasia"
+    },
+    {
+        "livro": "O Senhor dos Anéis: As Duas Torres",
+        "categoria": "Fantasia"
+    },
+    {
+        "livro": "O Sol é Para Todos",
+        "categoria": "Ficção"
+    },
+    {
+        "livro": "Orgulho e Preconceito",
+        "categoria": "Romance"
+    }
+]

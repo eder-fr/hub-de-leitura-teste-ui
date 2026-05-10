@@ -18,4 +18,22 @@ describe('Funcionalidade: Busca no catálogo', () => {
         cy.get('.card-title').should('contain', catalog[10].livro)
     });
 
+    it('Deve buscar um livro usando Fixture', () => {
+        cy.fixture('catalogo').then((cat) => {
+            cy.get('#search-input').type(cat[10].livro)
+            // Resultado esperado
+            cy.get('.card-title').should('contain', cat[10].livro)
+        })
+    });
+
+    it('Deve buscar todos os livros usando Fixture', () => {
+        cy.fixture('catalogo').then((cat) => {
+            cat.forEach(item => {
+                cy.get('#search-input').clear().type(item.livro)
+                // Resultado esperado
+                cy.get('.card-title').should('contain', item.livro)
+            })
+        })
+    });
+
 });
